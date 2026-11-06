@@ -1,9 +1,8 @@
 import tkinter as tk
 
 janela = tk.TK()
-janela.title("Teclado da calculadora")
+janela.title("teclado da calculadora")
 
-# adicionando botões APENAS nas colunas
 botao1 = tk.Button(janela, text="1", width=6)
 botao1.grid(row=0, column=0)
 

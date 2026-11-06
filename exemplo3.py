@@ -2,17 +2,13 @@ import tkinter as tk
 
 def digitar_7():
     visor.insert(tk.END, "7")
-
 def digitar_8():
     visor.insert(tk.END, "8")
-
 def limpar():
     visor.delete(0, tk.END)
 
 janela = tk.Tk()
 janela.title("Primeiros botões")
-
-# O visor ocupa três colunas da primeira linha
 
 visor = tk.Entry(janela, width=24, justify="right")
 visor.grid(row=0, column=0, columnspan=3, padx=5, pady=5)
